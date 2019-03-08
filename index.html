@@ -228,8 +228,27 @@ body {
 </style>
 </head>
 <body>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<div class="row">
 
 <div class="flip-box">
   <div class="flip-box-inner">
@@ -277,6 +296,7 @@ body {
     </div>
   </div>
 </div>
+	</div>
 <div class="flip-box">
   <div class="flip-box-inner">
     <div class="flip-box-front">
