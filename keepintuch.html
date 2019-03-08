@@ -1,1 +1,410 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>lyk productions</title>
+<!--
+Template 2086 Multi Color
+http://www.tooplate.com/view/2086-multi-color
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/font-awesome.min.css">                
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="bootstrap.min.css">                                      
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="hero-slider-style.css">                              
+    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="magnific-popup.css">                                 
+    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    <link rel="stylesheet" href="tooplate-style.css">                                   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+</head>
+
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+        <!-- Content -->
+        <div class="cd-hero">
+
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+                    <div class="tm-navbar-bg">
+                        
+                        <a class="navbar-brand text-uppercase" href="#"><i class="fa fa-gears tm-brand-icon"></i>lyk productions</a>
+
+                        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item active selected">
+                                    <a class="nav-link" href="#0" data-no="1">home<span class="sr-only">(current)</span></a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="morevideos.html">more videos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="whatsnew.html">whats new</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="keepintuch.html">Keep in touch</a>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">
+
+      <!-- Page 1 Gallery One -->
+                <li class="selected">                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-one">
+                                <!-- Gallery One pop up connected with JS code below -->                                    
+                                    <div class="tm-img-gallery-info-container">                                    
+                                        <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">videos</span></h2>
+                                        <p class="tm-text">
+                                        </p>
+                                    </div>
+                                   <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<div class="row">
+<div class="column">
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>FSide</h2>
+    </div>
+    <div class="flip-box-back">
+    <video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+    </div>
+  </div>
+</div>
+	</div>
+	<div class="column">
+	<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>Front Side</h2>
+    </div>
+    <div class="flip-box-back">
+    <video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+    </div>
+  </div>
+</div>
+		</div>
+		<div class="column">
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>Front Side</h2>
+    </div>
+    <div class="flip-box-back">
+    <video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+    </div>
+  </div>
+</div>
+	</div>
+</div>
+			<div class="column">
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>Front Side</h2>
+    </div>
+    <div class="flip-box-back">
+    <video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+    </div>
+  </div>
+</div>
+	</div>
+</div>
+
+                                                                                        
+                                </div>                                 
+                            </div>
+                        </div>                                                    
+                    </div>                    
+                </li>
+
+                      <!-- Page 2 Gallery Two -->
+                
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">
+            
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        
+        <!-- load JS files -->
+        <script src="jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) --> 
+        <script src="bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <script>
+            function adjustHeightOfPage(pageNo) {
+                var offset = 80;
+                var pageContentHeight = 0;
+                var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
+                if( pageType != undefined && pageType == "gallery") {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
+                }
+                else {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 20;
+                }
+                if($(window).width() >= 992) { offset = 120; }
+                else if($(window).width() < 480) { offset = 40; }
+               
+                // Get the page height
+                var totalPageHeight = $('.cd-slider-nav').height()
+                                        + pageContentHeight + offset
+                                        + $('.tm-footer').height();
+                // Adjust layout based on page height and window height
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+            }
+            /*
+                Everything is loaded including images.
+            */
+            $(window).load(function(){
+                adjustHeightOfPage(1); // Adjust page height
+                /* Gallery One pop up
+                -----------------------------------------*/
+                $('.gallery-one').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+				
+				/* Gallery Two pop up
+                -----------------------------------------*/
+				$('.gallery-two').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+                /* Gallery Three pop up
+                -----------------------------------------*/
+                $('.gallery-three').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+                /* Collapse menu after click 
+                -----------------------------------------*/
+                $('#tmNavbar a').click(function(){
+                    $('#tmNavbar').collapse('hide');
+                    adjustHeightOfPage($(this).data("no")); // Adjust page height       
+                });
+                /* Browser resized 
+                -----------------------------------------*/
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    
+                    // wait 3 seconds
+                    setTimeout(function() {
+                        adjustHeightOfPage( currentPageNo );
+                    }, 1000);
+                    
+                });
+        
+                // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
+                $('body').addClass('loaded');
+                           
+            });
+            
+        </script>            
+
+</body>
+</html>
